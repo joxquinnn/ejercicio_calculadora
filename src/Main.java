@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int opcion = 0;
-        int a = 0;
-        int b = 0;
+        int opcion = 4;
+        int a = 5;
+        int b = 5;
 
         double resultado = 0;
         // Base para el ejercicio: este switch debe ser trabajado en varias feature/*.
@@ -19,10 +19,10 @@ public class Main {
                 System.out.println("el resultado es:" + resultado);
                 break;
             case 3:
-                System.out.println("TODO: implementar multiplicacion");
+                System.out.println("Multiplicación:" + (a*b));
                 break;
             case 4:
-                System.out.println("TODO: implementar division");
+                System.out.println("Divición: " + (a/b));
                 break;
             default:
                 System.out.println("TODO: implementar menu y validaciones");
